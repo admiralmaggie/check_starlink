@@ -9,6 +9,7 @@ This script needs the following components:
 - Chromedriver executable for your OS (download from here: https://chromedriver.chromium.org/downloads)
 - Chrome/Chromium browser
 - An account with mailgun API
+- Only works with US website. I have no way of testing non-us sites.
 
 ## Installation
 I recommend a virtual environment:
