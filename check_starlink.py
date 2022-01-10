@@ -64,8 +64,8 @@ class Robotics:
         WebDriverWait(driver, self.delay).until(EC.presence_of_element_located((By.XPATH, xpath_order_deposit)))
 
         xpath_status = "/html/body/app-root/starlink-nav-layout/div/mat-sidenav-container/"\
-                       "mat-sidenav-content/div/main/app-account-home/div/div[2]/app-content-pane-prepay/"\
-                       "section/app-notice-section/article/span"
+                       "mat-sidenav-content/div/main/app-account-home/div/div[2]/"\
+                       "app-notice-section/article/span"
         self.status = driver.find_element(by=By.XPATH, value=xpath_status).text
 
         print('Status:', self.status)
